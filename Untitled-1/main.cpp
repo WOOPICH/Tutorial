@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <ctime>
 #include <windows.h>
@@ -100,6 +100,7 @@ int main() {
     cout << "Лабораторная работа 8, Вариант 3, Данилов Дмитрий, ИКБО-02-17" << endl;
     cout << "Задание : 'Заполнить матрицу строковым или числовым типо данных и отсортировать по заданному значению'"
          << endl << endl;
+    cout << "CheckThisOut!" << endl;
     short n;
     int N, M;
     menu(n, N, M);
