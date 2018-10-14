@@ -21,7 +21,8 @@ void fill(vector <vector <char>> &arr, int N, int M)
     for (int i = 0; i < N; i++) {
         arr.emplace_back();
         for (int j = 0; j < M; j++) {
-            arr[i].push_back(arr[i][j] = ('a' + rand() % ('z' - 'a')));
+           // arr[i].push_back(arr[i][j] = ('a' + rand() % ('z' - 'a')));
+ arr[i].push_back(arr[i][j] = ('a' + rand() % ('z' - 'a')));
         }
     }
 }
